@@ -7,3 +7,9 @@ data class CategoryItems (
   val image: Int
 )
 
+val CategoryList = listOf(
+  CategoryItems("Fast Food", R.drawable.pizza_category),
+  CategoryItems("Sushi", R.drawable.pizza_category),
+  CategoryItems("Pizza", R.drawable.pizza_category),
+  CategoryItems("Alitas", R.drawable.pizza_category)
+)

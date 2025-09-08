@@ -7,6 +7,10 @@ data class BrandItem (
   val image: Int,
 )
 
-val brandList = listOf(
-  BrandItem("KFC", R.drawable.kfc_logo)
+val BrandList = listOf(
+  BrandItem("KFC", R.drawable.kfc_logo),
+  BrandItem("Burger King", R.drawable.kfc_logo),
+  BrandItem("McDonald's", R.drawable.kfc_logo),
+  BrandItem("Pizza Hut", R.drawable.kfc_logo),
+  BrandItem("Mizaki", R.drawable.kfc_logo),
 )
