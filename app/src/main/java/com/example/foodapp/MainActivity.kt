@@ -28,9 +28,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.foodapp.Components.BrandRow
-import com.example.foodapp.Components.CategoryRow
-import com.example.foodapp.Components.ProductGrid
+import com.example.foodapp.components.BrandRow
+import com.example.foodapp.components.CategoryRow
+import com.example.foodapp.components.ProductGrid
 import com.example.foodapp.data.BrandList
 import com.example.foodapp.data.CategoryList
 import com.example.foodapp.data.ProductList
@@ -74,7 +74,8 @@ fun HomeScreen(innerPadding: PaddingValues) {
       text = "Nuestras categorias",
       fontWeight = FontWeight.Bold,
       fontSize = 24.sp,
-      color = PrimaryColor
+      color = PrimaryColor,
+      modifier = Modifier.padding(top = 8.dp)
     )
 
     CategoryRow(categories = CategoryList)
@@ -83,7 +84,8 @@ fun HomeScreen(innerPadding: PaddingValues) {
       text = "Busca los mejores restaurantes",
       fontWeight = FontWeight.Bold,
       fontSize = 24.sp,
-      color = PrimaryColor
+      color = PrimaryColor,
+      modifier = Modifier.padding(top = 8.dp)
     )
 
     BrandRow(brands = BrandList)
@@ -92,7 +94,8 @@ fun HomeScreen(innerPadding: PaddingValues) {
       text = "Nuestras mejores comidas",
       fontWeight = FontWeight.Bold,
       fontSize = 24.sp,
-      color = PrimaryColor
+      color = PrimaryColor,
+      modifier = Modifier.padding(top = 8.dp)
     )
 
     ProductGrid(products = ProductList)

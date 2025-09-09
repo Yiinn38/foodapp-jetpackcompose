@@ -9,8 +9,8 @@ data class BrandItem (
 
 val BrandList = listOf(
   BrandItem("KFC", R.drawable.kfc_logo),
-  BrandItem("Burger King", R.drawable.kfc_logo),
-  BrandItem("McDonald's", R.drawable.kfc_logo),
-  BrandItem("Pizza Hut", R.drawable.kfc_logo),
-  BrandItem("Mizaki", R.drawable.kfc_logo),
+  BrandItem("Burger King", R.drawable.bk_logo),
+  BrandItem("McDonald's", R.drawable.mc_logo),
+  BrandItem("Pizza Hut", R.drawable.pizzahut_logo),
+  BrandItem("Mizaki", R.drawable.mizaki_logo),
 )
